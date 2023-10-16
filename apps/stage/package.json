@@ -15,8 +15,10 @@
     "react-native-svg-transformer": "*",
     "react": "*",
     "@shopify/react-native-skia": "*",
-    "expo-splash-screen": "~0.20.5",
-    "expo-status-bar": "~1.6.0"
+    "expo-splash-screen": "*",
+    "expo-status-bar": "*",
+    "@babel/core": "*",
+    "react-native-reanimated": "*"
   },
   "scripts": {
     "eas-build-pre-install": "cd ../../ && node tools/scripts/eas-build-pre-install.mjs . apps/stage && cp package-lock.json apps/stage",
